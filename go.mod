@@ -4,6 +4,7 @@ go 1.22.1
 
 require (
 	github.com/BarnabyCharles/frame v0.0.0-20240328110456-66fd1b4ec1ae
+	github.com/ghodss/yaml v1.0.0
 	github.com/zeromicro/go-zero v1.6.3
 	google.golang.org/grpc v1.62.1
 	google.golang.org/protobuf v1.33.0
@@ -23,7 +24,6 @@ require (
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -105,6 +105,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/driver/mysql v1.5.6 // indirect
 	k8s.io/api v0.29.2 // indirect
