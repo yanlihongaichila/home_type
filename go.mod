@@ -7,7 +7,6 @@ require (
 	github.com/zeromicro/go-zero v1.6.3
 	google.golang.org/grpc v1.62.1
 	google.golang.org/protobuf v1.33.0
-	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/gorm v1.25.9
 )
 

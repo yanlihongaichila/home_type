@@ -6,16 +6,16 @@ import (
 	"github.com/BarnabyCharles/frame/app"
 	config2 "github.com/BarnabyCharles/frame/config"
 	"github.com/ghodss/yaml"
+	"github.com/yanlihongaichila/home_type/home"
+	"github.com/yanlihongaichila/home_type/internal/config"
+	"github.com/yanlihongaichila/home_type/internal/pkg"
+	"github.com/yanlihongaichila/home_type/internal/server"
+	"github.com/yanlihongaichila/home_type/internal/svc"
 	"github.com/zeromicro/go-zero/core/service"
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	"homeRpc/home"
-	"homeRpc/internal/config"
-	"homeRpc/internal/pkg"
-	"homeRpc/internal/server"
-	"homeRpc/internal/svc"
 	"log"
 )
 

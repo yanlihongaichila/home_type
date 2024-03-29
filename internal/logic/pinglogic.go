@@ -2,9 +2,8 @@ package logic
 
 import (
 	"context"
-
-	"homeRpc/home"
-	"homeRpc/internal/svc"
+	"github.com/yanlihongaichila/home_type/home"
+	"github.com/yanlihongaichila/home_type/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

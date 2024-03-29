@@ -5,8 +5,7 @@ package homeclient
 
 import (
 	"context"
-
-	"homeRpc/home"
+	"github.com/yanlihongaichila/home_type/home"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

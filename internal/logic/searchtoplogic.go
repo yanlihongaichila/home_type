@@ -3,9 +3,9 @@ package logic
 import (
 	"context"
 	"fmt"
-	"homeRpc/home"
-	"homeRpc/internal/pkg"
-	"homeRpc/internal/svc"
+	"github.com/yanlihongaichila/home_type/home"
+	"github.com/yanlihongaichila/home_type/internal/pkg"
+	"github.com/yanlihongaichila/home_type/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

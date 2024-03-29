@@ -5,10 +5,9 @@ package server
 
 import (
 	"context"
-
-	"homeRpc/home"
-	"homeRpc/internal/logic"
-	"homeRpc/internal/svc"
+	"github.com/yanlihongaichila/home_type/home"
+	"github.com/yanlihongaichila/home_type/internal/logic"
+	"github.com/yanlihongaichila/home_type/internal/svc"
 )
 
 type HomeServer struct {
