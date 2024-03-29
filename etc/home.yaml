@@ -1,0 +1,13 @@
+#Name: home.rpc
+#ListenOn: 0.0.0.0:8113
+#Etcd:
+#  Hosts:
+#  - 127.0.0.1:2379
+#  Key: home.rpc
+
+Nacos:
+  host: lingdyl.cn
+  port: 8849
+  serverName: home_type
+  group: DEFAULT_GROUP
+  namespaceId: 8449d227-ad0f-4ae2-bb76-7e0dd20374a8
