@@ -1,4 +1,4 @@
-module homeRpc
+module github.com/yanlihongaichila/home_type
 
 go 1.22.1
 
