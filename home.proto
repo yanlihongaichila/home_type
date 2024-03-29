@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+package home;
+option go_package="./home";
+
+
+service Home {
+  rpc Ping(Request)                           returns (Response);
+  rpc SearchTop(SearchTopRequest)             returns (SearchTopResponse);
+  rpc SearchSlideshow(SearchSlideshowRequest) returns (SearchSlideshowResponse);
+  rpc SearchMainBody(SearchMainBodyRequest)   returns (SearchMainBodyResponse);
+  rpc SearchBottom(SearchBottomRequest)       returns (SearchBottomResponse);
+}
+
+
+message Request {
+  string Ping = 1;
+}
+
+message Response {
+  string Pong = 1;
+}
+
+//top
+message TopInfo {
+  string Title  = 10;
+  string Url    = 20;
+}
+
+message SearchTopRequest {
+  int64 Where = 10;
+}
+
+message SearchTopResponse {
+  repeated TopInfo TopInfos = 10;
+}
+
+//Slideshow
+message Slideshow {
+  string Title  = 10;
+  string Url    = 20;
+  string Image  = 30;
+}
+
+message SearchSlideshowRequest {
+  int64 Where = 10;
+}
+
+message SearchSlideshowResponse {
+  repeated Slideshow Slideshows = 10;
+}
+
+//MainBody
+message MainBody {
+  string Title  = 10;
+  string Url    = 20;
+  string Image  = 30;
+}
+
+message SearchMainBodyRequest {
+  int64 Where = 10;
+}
+
+message SearchMainBodyResponse {
+  repeated MainBody MainBodys = 10;
+}
+
+//Bottom
+message Bottom {
+  string Title  = 10;
+  string Url    = 20;
+  string Image  = 30;
+}
+
+message SearchBottomRequest {
+  int64 Where = 10;
+}
+
+message SearchBottomResponse {
+  repeated Bottom Bottoms = 10;
+}
+
+
+
